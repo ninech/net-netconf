@@ -1,10 +1,9 @@
 $LOAD_PATH.unshift 'lib'
 require 'rake'
-require 'net/netconf/version'
 
 Gem::Specification.new do |s|
   s.name = 'netconf'
-  s.version = Netconf::VERSION
+  s.version = "0.3.1"
   s.summary = "NETCONF client"
   s.description = "Extensible Ruby-based NETCONF client"
   s.homepage = 'https://github.com/Juniper/net-netconf'
